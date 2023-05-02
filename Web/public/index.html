@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firebase Temperature and Humidity</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Firebase Temperature and Humidity</h1>
+    <p>Temperature: <span id="temperature"></span></p>
+    <p>Humidity: <span id="humidity"></span></p>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <!-- Your web app's Firebase configuration -->
+    <script>
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+      apiKey: "AIzaSyDFlfD45GtlETprl_W4YcbyfuKT-l7P6to",
+      authDomain: "prueba-fa6e7.firebaseapp.com",
+      databaseURL: "https://prueba-fa6e7-default-rtdb.firebaseio.com",
+      projectId: "prueba-fa6e7",
+      storageBucket: "prueba-fa6e7.appspot.com",
+      messagingSenderId: "112805868620",
+      appId: "1:112805868620:web:cc4834ebc7c920992ab0e9",
+      measurementId: "G-L7WYEVE45X"
+  };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
