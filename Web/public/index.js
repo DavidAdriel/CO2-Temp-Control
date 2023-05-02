@@ -13,4 +13,4 @@ humidityRef.limitToLast(1).on("child_added", (snapshot) => {
   humidityElement.textContent = snapshot.val();
 });
 
-//Le falta codigo
+//Le falta codigo para graficos
